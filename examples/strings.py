@@ -15,7 +15,6 @@ weeks_left = years_left * 52       //(52 means in 1 year we have 52 days)
 months_left = years_left * 12      //( 12 means in 1 year we have 12 months)
 
 print(f"You have {days_left} days, {weeks_left} weeks, {months_left} months, {years_left} years")
-
 ```
 
 
