@@ -31,3 +31,18 @@ if(height >= 4):
 else:
     print("you can't ride")
     print("Bye")
+
+# Leap year
+
+year = int(input("enter year : "))
+
+if(year % 4 == 0):
+    if (year % 100 == 0):
+        if(year % 400 == 0):
+            print("Leap year")
+        else:
+            print("Not Leap year")
+    else:
+        print("Leap year")
+else:
+    print("Not leap year")
